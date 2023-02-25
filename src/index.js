@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './Router';
+// import Todo from "./Todo";
+// import About from "./About"
+// import Company from "./Company"
+// import Bootstrap from './Bootstrap';
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <About /> */}
+    <BrowserRouter>
+    <App/>
+    </BrowserRouter>
+    {/* <Company/> */}
+    {/* <Bootstrap/> */}
   </React.StrictMode>
 );
 
