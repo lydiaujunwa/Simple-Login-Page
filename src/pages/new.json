@@ -1,0 +1,12 @@
+{
+    "firstname" : "Okafor",
+    "lastname" : "Uche",
+    "location" : "DollyHill",
+    "online" : true,
+    "followers" : 100,
+    "bio": {
+      "pob": "Nnewi",
+      "best food": "Ukwa"
+    },
+    "movies": ["bahubbali", 20, true]
+  }
